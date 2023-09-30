@@ -21,11 +21,7 @@ int generarVelocidadAleatoria()
     return rand() % 101 + 100;
 }
 
-typedef struct {
-    char nombre[10];
-    int velocidad;
-    float tiempo;
-} Coche;
+
 
 void iniciarCarrera()
 {
